@@ -1,0 +1,11 @@
+3/Flow code của ReactJS 
+index.html (chú ý id="root");
+index.js (chú ý <App/> là nơi gọi component)
+App.js (chú ý return của function App nội dung của component)
+
+4/reactjs không đọc được html chỉ đọc được jsx nên phải convert html sang jsx;
+5/JSX giúp cho chúng ta code html và js vào cùng 1 file
+6/ Lợi ích và tiêu chí vì sao phải chia component
++ Tái sử dụng được nhìu lần 
++ Dễ bảo trì và mở rộng
+7/ Luôn luôn đặt tên component ta tự tạo bằng chữ cái đầu viết hoa để tránh vs các component mặc định của html
